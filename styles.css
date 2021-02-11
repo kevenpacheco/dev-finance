@@ -199,6 +199,10 @@ table tbody td {
   padding: 1rem 2rem;
 }
 
+table tbody td img{
+  cursor: pointer;
+}
+
 td.description {
   color: var(--dark-blue);
 }
@@ -263,7 +267,7 @@ input {
   margin-top: 0.8rem;
 }
 
-.input-group small {
+.input-group .help {
   opacity: 0.4;
 }
 
